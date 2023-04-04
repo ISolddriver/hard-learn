@@ -27,6 +27,40 @@ module.exports = {
               path: '/base-js/原型和原型链'
             }
           ]
+        },
+        {
+          title: 'CSS基础',
+          path: '',
+          collapsable: true,
+          sidebarDepth: -1,
+          children: [
+            {
+              title: '什么是BFC',
+              path: '/base-css/BFC'
+            }
+          ]
+        },
+        {
+          title: '工具方法',
+          path: '',
+          sidebarDepth: -1,
+          children: [
+            {
+              title: '扁平数组转化成tree',
+              path: '/base-utils/扁平数组转化成tree'
+            }
+          ]
+        },
+        {
+          title: '一点儿思考',
+          path: '',
+          sidebarDepth: -1,
+          children: [
+            {
+              title: '尾调用优化',
+              path: '/base-thinking/尾调用优化'
+            }
+          ]
         }
       ]
     }
