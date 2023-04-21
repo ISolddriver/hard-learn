@@ -4,7 +4,7 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '关于', link: '/a' },
+      { text: '关于', link: '/about' },
       { text: '友链', link: '/b' },
 	    {
         text: '下拉菜单',
@@ -59,6 +59,10 @@ module.exports = {
             {
               title: '尾调用优化',
               path: '/base-thinking/尾调用优化'
+            },
+            {
+              title: 'new的实现',
+              path: '/base-thinking/new的实现'
             }
           ]
         }
