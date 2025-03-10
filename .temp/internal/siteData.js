@@ -8,22 +8,27 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "实现new关键字",
+      "title": "什么是BFC?",
       "frontmatter": {},
-      "regularPath": "/base-thinking/new%E7%9A%84%E5%AE%9E%E7%8E%B0.html",
-      "relativePath": "base-thinking/new的实现.md",
-      "key": "v-640fdd97",
-      "path": "/base-thinking/new%E7%9A%84%E5%AE%9E%E7%8E%B0.html",
+      "regularPath": "/base-css/BFC.html",
+      "relativePath": "base-css/BFC.md",
+      "key": "v-7d3afeea",
+      "path": "/base-css/BFC.html",
       "headers": [
         {
           "level": 2,
-          "title": "实现new关键字",
-          "slug": "实现new关键字"
+          "title": "什么是BFC?",
+          "slug": "什么是bfc"
         },
         {
           "level": 3,
-          "title": "new 关键词的作用",
-          "slug": "new-关键词的作用"
+          "title": "首先理解BFC概念",
+          "slug": "首先理解bfc概念"
+        },
+        {
+          "level": 3,
+          "title": "触发条件",
+          "slug": "触发条件"
         }
       ]
     },
@@ -58,59 +63,95 @@ export const siteData = {
       ]
     },
     {
-      "title": "什么是BFC?",
+      "title": "堆和桟",
       "frontmatter": {},
-      "regularPath": "/base-css/BFC.html",
-      "relativePath": "base-css/BFC.md",
-      "key": "v-7d3afeea",
-      "path": "/base-css/BFC.html",
+      "regularPath": "/base-js/%E5%A0%86%E5%92%8C%E6%A0%88.html",
+      "relativePath": "base-js/堆和栈.md",
+      "key": "v-04118d6a",
+      "path": "/base-js/%E5%A0%86%E5%92%8C%E6%A0%88.html",
       "headers": [
         {
           "level": 2,
-          "title": "什么是BFC?",
-          "slug": "什么是bfc"
+          "title": "堆和桟",
+          "slug": "堆和桟"
         },
         {
           "level": 3,
-          "title": "首先理解BFC概念",
-          "slug": "首先理解bfc概念"
+          "title": "什么是堆？",
+          "slug": "什么是堆"
         },
         {
           "level": 3,
-          "title": "触发条件",
-          "slug": "触发条件"
+          "title": "什么是栈？",
+          "slug": "什么是栈"
+        },
+        {
+          "level": 3,
+          "title": "堆和栈的区别",
+          "slug": "堆和栈的区别"
+        },
+        {
+          "level": 3,
+          "title": "例题1",
+          "slug": "例题1"
+        },
+        {
+          "level": 3,
+          "title": "解析",
+          "slug": "解析"
+        },
+        {
+          "level": 3,
+          "title": "例题2",
+          "slug": "例题2"
+        },
+        {
+          "level": 3,
+          "title": "解析",
+          "slug": "解析-2"
         }
       ]
     },
     {
+      "title": "实现new关键字",
       "frontmatter": {},
-      "regularPath": "/config.html",
-      "relativePath": "config.md",
-      "key": "v-89a83a96",
-      "path": "/config.html"
-    },
-    {
-      "title": "扁平化数组转化成tree",
-      "frontmatter": {},
-      "regularPath": "/base-utils/%E6%89%81%E5%B9%B3%E6%95%B0%E7%BB%84%E8%BD%AC%E5%8C%96%E6%88%90tree.html",
-      "relativePath": "base-utils/扁平数组转化成tree.md",
-      "key": "v-dd05e5c2",
-      "path": "/base-utils/%E6%89%81%E5%B9%B3%E6%95%B0%E7%BB%84%E8%BD%AC%E5%8C%96%E6%88%90tree.html",
+      "regularPath": "/base-thinking/new%E7%9A%84%E5%AE%9E%E7%8E%B0.html",
+      "relativePath": "base-thinking/new的实现.md",
+      "key": "v-640fdd97",
+      "path": "/base-thinking/new%E7%9A%84%E5%AE%9E%E7%8E%B0.html",
       "headers": [
         {
           "level": 2,
-          "title": "扁平化数组转化成tree",
-          "slug": "扁平化数组转化成tree"
+          "title": "实现new关键字",
+          "slug": "实现new关键字"
         },
         {
           "level": 3,
-          "title": "方法1，不考虑性能，直接递归",
-          "slug": "方法1-不考虑性能-直接递归"
-        },
+          "title": "new 关键词的作用",
+          "slug": "new-关键词的作用"
+        }
+      ]
+    },
+    {
+      "title": "hard-learn",
+      "frontmatter": {},
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-5d8a074e",
+      "path": "/"
+    },
+    {
+      "title": "函数柯理化",
+      "frontmatter": {},
+      "regularPath": "/base-thinking/%E5%87%BD%E6%95%B0%E6%9F%AF%E7%90%86%E5%8C%96.html",
+      "relativePath": "base-thinking/函数柯理化.md",
+      "key": "v-7938b4f2",
+      "path": "/base-thinking/%E5%87%BD%E6%95%B0%E6%9F%AF%E7%90%86%E5%8C%96.html",
+      "headers": [
         {
           "level": 3,
-          "title": "方法2，优化性能",
-          "slug": "方法2-优化性能"
+          "title": "函数柯理化",
+          "slug": "函数柯理化"
         }
       ]
     },
@@ -150,12 +191,101 @@ export const siteData = {
       ]
     },
     {
-      "title": "hard-learn",
+      "title": "深拷贝",
       "frontmatter": {},
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-5d8a074e",
-      "path": "/"
+      "regularPath": "/base-thinking/%E6%B7%B1%E6%8B%B7%E8%B4%9D.html",
+      "relativePath": "base-thinking/深拷贝.md",
+      "key": "v-ee2b0b78",
+      "path": "/base-thinking/%E6%B7%B1%E6%8B%B7%E8%B4%9D.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "深拷贝",
+          "slug": "深拷贝"
+        }
+      ]
+    },
+    {
+      "title": "闭包",
+      "frontmatter": {},
+      "regularPath": "/base-js/%E9%97%AD%E5%8C%85.html",
+      "relativePath": "base-js/闭包.md",
+      "key": "v-4fe6db84",
+      "path": "/base-js/%E9%97%AD%E5%8C%85.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "闭包",
+          "slug": "闭包"
+        },
+        {
+          "level": 3,
+          "title": "闭包的用途",
+          "slug": "闭包的用途"
+        },
+        {
+          "level": 3,
+          "title": "闭包的缺点",
+          "slug": "闭包的缺点"
+        }
+      ]
+    },
+    {
+      "title": "扁平化数组转化成tree",
+      "frontmatter": {},
+      "regularPath": "/base-utils/%E6%89%81%E5%B9%B3%E6%95%B0%E7%BB%84%E8%BD%AC%E5%8C%96%E6%88%90tree.html",
+      "relativePath": "base-utils/扁平数组转化成tree.md",
+      "key": "v-dd05e5c2",
+      "path": "/base-utils/%E6%89%81%E5%B9%B3%E6%95%B0%E7%BB%84%E8%BD%AC%E5%8C%96%E6%88%90tree.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "扁平化数组转化成tree",
+          "slug": "扁平化数组转化成tree"
+        },
+        {
+          "level": 3,
+          "title": "方法1，不考虑性能，直接递归",
+          "slug": "方法1-不考虑性能-直接递归"
+        },
+        {
+          "level": 3,
+          "title": "方法2，优化性能",
+          "slug": "方法2-优化性能"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/config.html",
+      "relativePath": "config.md",
+      "key": "v-89a83a96",
+      "path": "/config.html"
+    },
+    {
+      "title": "Vue中双向绑定原理",
+      "frontmatter": {},
+      "regularPath": "/base-thinking/%E5%8F%8C%E5%90%91%E7%BB%91%E5%AE%9A%E5%8E%9F%E7%90%86.html",
+      "relativePath": "base-thinking/双向绑定原理.md",
+      "key": "v-7f6f8667",
+      "path": "/base-thinking/%E5%8F%8C%E5%90%91%E7%BB%91%E5%AE%9A%E5%8E%9F%E7%90%86.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Vue中双向绑定原理",
+          "slug": "vue中双向绑定原理"
+        },
+        {
+          "level": 3,
+          "title": "1. 什么是双向绑定",
+          "slug": "_1-什么是双向绑定"
+        },
+        {
+          "level": 3,
+          "title": "2. Vue中双向绑定原理",
+          "slug": "_2-vue中双向绑定原理"
+        }
+      ]
     }
   ],
   "themeConfig": {
@@ -199,6 +329,14 @@ export const siteData = {
           {
             "title": "原型和原型链",
             "path": "/base-js/原型和原型链"
+          },
+          {
+            "title": "堆和栈",
+            "path": "/base-js/堆和栈"
+          },
+          {
+            "title": "闭包",
+            "path": "/base-js/闭包"
           }
         ]
       },
@@ -237,6 +375,18 @@ export const siteData = {
           {
             "title": "new的实现",
             "path": "/base-thinking/new的实现"
+          },
+          {
+            "title": "函数柯理化",
+            "path": "/base-thinking/函数柯理化"
+          },
+          {
+            "title": "深拷贝",
+            "path": "/base-thinking/深拷贝"
+          },
+          {
+            "title": "双向绑定原理",
+            "path": "/base-thinking/双向绑定原理"
           }
         ]
       }

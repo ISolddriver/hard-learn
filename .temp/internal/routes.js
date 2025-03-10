@@ -9,20 +9,12 @@ import GlobalLayout from "/Users/zhongjiawei/Desktop/hard-learn/node_modules/@vu
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-640fdd97",
-    path: "/base-thinking/new%E7%9A%84%E5%AE%9E%E7%8E%B0.html",
+    name: "v-7d3afeea",
+    path: "/base-css/BFC.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-640fdd97").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-7d3afeea").then(next)
     },
-  },
-  {
-    path: "/base-thinking/new的实现.html",
-    redirect: "/base-thinking/new%E7%9A%84%E5%AE%9E%E7%8E%B0.html"
-  },
-  {
-    path: "/base-thinking/new的实现.html",
-    redirect: "/base-thinking/new%E7%9A%84%E5%AE%9E%E7%8E%B0.html"
   },
   {
     name: "v-5e89bd58",
@@ -41,36 +33,64 @@ export const routes = [
     redirect: "/base-js/%E5%8E%9F%E5%9E%8B%E5%92%8C%E5%8E%9F%E5%9E%8B%E9%93%BE.html"
   },
   {
-    name: "v-7d3afeea",
-    path: "/base-css/BFC.html",
+    name: "v-04118d6a",
+    path: "/base-js/%E5%A0%86%E5%92%8C%E6%A0%88.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7d3afeea").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-04118d6a").then(next)
     },
   },
   {
-    name: "v-89a83a96",
-    path: "/config.html",
+    path: "/base-js/堆和栈.html",
+    redirect: "/base-js/%E5%A0%86%E5%92%8C%E6%A0%88.html"
+  },
+  {
+    path: "/base-js/堆和栈.html",
+    redirect: "/base-js/%E5%A0%86%E5%92%8C%E6%A0%88.html"
+  },
+  {
+    name: "v-640fdd97",
+    path: "/base-thinking/new%E7%9A%84%E5%AE%9E%E7%8E%B0.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-89a83a96").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-640fdd97").then(next)
     },
   },
   {
-    name: "v-dd05e5c2",
-    path: "/base-utils/%E6%89%81%E5%B9%B3%E6%95%B0%E7%BB%84%E8%BD%AC%E5%8C%96%E6%88%90tree.html",
+    path: "/base-thinking/new的实现.html",
+    redirect: "/base-thinking/new%E7%9A%84%E5%AE%9E%E7%8E%B0.html"
+  },
+  {
+    path: "/base-thinking/new的实现.html",
+    redirect: "/base-thinking/new%E7%9A%84%E5%AE%9E%E7%8E%B0.html"
+  },
+  {
+    name: "v-5d8a074e",
+    path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-dd05e5c2").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-5d8a074e").then(next)
     },
   },
   {
-    path: "/base-utils/扁平数组转化成tree.html",
-    redirect: "/base-utils/%E6%89%81%E5%B9%B3%E6%95%B0%E7%BB%84%E8%BD%AC%E5%8C%96%E6%88%90tree.html"
+    path: "/index.html",
+    redirect: "/"
   },
   {
-    path: "/base-utils/扁平数组转化成tree.html",
-    redirect: "/base-utils/%E6%89%81%E5%B9%B3%E6%95%B0%E7%BB%84%E8%BD%AC%E5%8C%96%E6%88%90tree.html"
+    name: "v-7938b4f2",
+    path: "/base-thinking/%E5%87%BD%E6%95%B0%E6%9F%AF%E7%90%86%E5%8C%96.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7938b4f2").then(next)
+    },
+  },
+  {
+    path: "/base-thinking/函数柯理化.html",
+    redirect: "/base-thinking/%E5%87%BD%E6%95%B0%E6%9F%AF%E7%90%86%E5%8C%96.html"
+  },
+  {
+    path: "/base-thinking/函数柯理化.html",
+    redirect: "/base-thinking/%E5%87%BD%E6%95%B0%E6%9F%AF%E7%90%86%E5%8C%96.html"
   },
   {
     name: "v-527c5581",
@@ -89,16 +109,76 @@ export const routes = [
     redirect: "/base-thinking/%E5%B0%BE%E8%B0%83%E7%94%A8%E4%BC%98%E5%8C%96.html"
   },
   {
-    name: "v-5d8a074e",
-    path: "/",
+    name: "v-ee2b0b78",
+    path: "/base-thinking/%E6%B7%B1%E6%8B%B7%E8%B4%9D.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5d8a074e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-ee2b0b78").then(next)
     },
   },
   {
-    path: "/index.html",
-    redirect: "/"
+    path: "/base-thinking/深拷贝.html",
+    redirect: "/base-thinking/%E6%B7%B1%E6%8B%B7%E8%B4%9D.html"
+  },
+  {
+    path: "/base-thinking/深拷贝.html",
+    redirect: "/base-thinking/%E6%B7%B1%E6%8B%B7%E8%B4%9D.html"
+  },
+  {
+    name: "v-4fe6db84",
+    path: "/base-js/%E9%97%AD%E5%8C%85.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4fe6db84").then(next)
+    },
+  },
+  {
+    path: "/base-js/闭包.html",
+    redirect: "/base-js/%E9%97%AD%E5%8C%85.html"
+  },
+  {
+    path: "/base-js/闭包.html",
+    redirect: "/base-js/%E9%97%AD%E5%8C%85.html"
+  },
+  {
+    name: "v-dd05e5c2",
+    path: "/base-utils/%E6%89%81%E5%B9%B3%E6%95%B0%E7%BB%84%E8%BD%AC%E5%8C%96%E6%88%90tree.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-dd05e5c2").then(next)
+    },
+  },
+  {
+    path: "/base-utils/扁平数组转化成tree.html",
+    redirect: "/base-utils/%E6%89%81%E5%B9%B3%E6%95%B0%E7%BB%84%E8%BD%AC%E5%8C%96%E6%88%90tree.html"
+  },
+  {
+    path: "/base-utils/扁平数组转化成tree.html",
+    redirect: "/base-utils/%E6%89%81%E5%B9%B3%E6%95%B0%E7%BB%84%E8%BD%AC%E5%8C%96%E6%88%90tree.html"
+  },
+  {
+    name: "v-89a83a96",
+    path: "/config.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-89a83a96").then(next)
+    },
+  },
+  {
+    name: "v-7f6f8667",
+    path: "/base-thinking/%E5%8F%8C%E5%90%91%E7%BB%91%E5%AE%9A%E5%8E%9F%E7%90%86.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7f6f8667").then(next)
+    },
+  },
+  {
+    path: "/base-thinking/双向绑定原理.html",
+    redirect: "/base-thinking/%E5%8F%8C%E5%90%91%E7%BB%91%E5%AE%9A%E5%8E%9F%E7%90%86.html"
+  },
+  {
+    path: "/base-thinking/双向绑定原理.html",
+    redirect: "/base-thinking/%E5%8F%8C%E5%90%91%E7%BB%91%E5%AE%9A%E5%8E%9F%E7%90%86.html"
   },
   {
     path: '*',
