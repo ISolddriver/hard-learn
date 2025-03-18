@@ -8,6 +8,29 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
+      "title": "hard-learn",
+      "frontmatter": {},
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-5d8a074e",
+      "path": "/"
+    },
+    {
+      "title": "vite 相关总结",
+      "frontmatter": {},
+      "regularPath": "/base-build/vite%E7%9B%B8%E5%85%B3.html",
+      "relativePath": "base-build/vite相关.md",
+      "key": "v-7e412323",
+      "path": "/base-build/vite%E7%9B%B8%E5%85%B3.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "vite 相关总结",
+          "slug": "vite-相关总结"
+        }
+      ]
+    },
+    {
       "title": "什么是BFC?",
       "frontmatter": {},
       "regularPath": "/base-css/BFC.html",
@@ -29,6 +52,406 @@ export const siteData = {
           "level": 3,
           "title": "触发条件",
           "slug": "触发条件"
+        }
+      ]
+    },
+    {
+      "title": "垂直水平居中的方式",
+      "frontmatter": {},
+      "regularPath": "/base-css/%E5%9E%82%E7%9B%B4%E6%B0%B4%E5%B9%B3%E5%B1%85%E4%B8%AD.html",
+      "relativePath": "base-css/垂直水平居中.md",
+      "key": "v-55e43ed6",
+      "path": "/base-css/%E5%9E%82%E7%9B%B4%E6%B0%B4%E5%B9%B3%E5%B1%85%E4%B8%AD.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "垂直水平居中的方式",
+          "slug": "垂直水平居中的方式"
+        },
+        {
+          "level": 3,
+          "title": "1. flex布局",
+          "slug": "_1-flex布局"
+        },
+        {
+          "level": 3,
+          "title": "2. transform",
+          "slug": "_2-transform"
+        },
+        {
+          "level": 3,
+          "title": "3. grid布局",
+          "slug": "_3-grid布局"
+        },
+        {
+          "level": 3,
+          "title": "4. table布局",
+          "slug": "_4-table布局"
+        },
+        {
+          "level": 3,
+          "title": "5. line-height",
+          "slug": "_5-line-height"
+        },
+        {
+          "level": 3,
+          "title": "6. position + margin",
+          "slug": "_6-position-margin"
+        }
+      ]
+    },
+    {
+      "title": "实现一个模态框组件，包括打开，关闭，遮罩层，动画效果",
+      "frontmatter": {},
+      "regularPath": "/base-css/%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%A8%A1%E6%80%81%E6%A1%86%E7%BB%84%E4%BB%B6.html",
+      "relativePath": "base-css/实现一个模态框组件.md",
+      "key": "v-72013c9f",
+      "path": "/base-css/%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%A8%A1%E6%80%81%E6%A1%86%E7%BB%84%E4%BB%B6.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "实现一个模态框组件，包括打开，关闭，遮罩层，动画效果",
+          "slug": "实现一个模态框组件-包括打开-关闭-遮罩层-动画效果"
+        }
+      ]
+    },
+    {
+      "title": "移动端 1px 边框",
+      "frontmatter": {},
+      "regularPath": "/base-css/%E7%A7%BB%E5%8A%A8%E7%AB%AF1px%E8%BE%B9%E6%A1%86.html",
+      "relativePath": "base-css/移动端1px边框.md",
+      "key": "v-7d4f4f99",
+      "path": "/base-css/%E7%A7%BB%E5%8A%A8%E7%AB%AF1px%E8%BE%B9%E6%A1%86.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "移动端 1px 边框",
+          "slug": "移动端-1px-边框"
+        }
+      ]
+    },
+    {
+      "title": "一键换肤",
+      "frontmatter": {},
+      "regularPath": "/base-css/%E4%B8%80%E9%94%AE%E6%8D%A2%E8%82%A4.html",
+      "relativePath": "base-css/一键换肤.md",
+      "key": "v-2133aeca",
+      "path": "/base-css/%E4%B8%80%E9%94%AE%E6%8D%A2%E8%82%A4.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一键换肤",
+          "slug": "一键换肤"
+        }
+      ]
+    },
+    {
+      "title": "Diff算法实现原理",
+      "frontmatter": {},
+      "regularPath": "/base-fe/Diff%E7%AE%97%E6%B3%95%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86.html",
+      "relativePath": "base-fe/Diff算法实现原理.md",
+      "key": "v-79c77efc",
+      "path": "/base-fe/Diff%E7%AE%97%E6%B3%95%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Diff算法实现原理",
+          "slug": "diff算法实现原理"
+        },
+        {
+          "level": 3,
+          "title": "vue2 的 diff 算法实现原理是",
+          "slug": "vue2-的-diff-算法实现原理是"
+        },
+        {
+          "level": 3,
+          "title": "vue3 的 diff 算法的优化",
+          "slug": "vue3-的-diff-算法的优化"
+        }
+      ]
+    },
+    {
+      "title": "Vuex 和 Pinia",
+      "frontmatter": {},
+      "regularPath": "/base-fe/Vuex%E5%92%8CPinia.html",
+      "relativePath": "base-fe/Vuex和Pinia.md",
+      "key": "v-11b92706",
+      "path": "/base-fe/Vuex%E5%92%8CPinia.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Vuex 和 Pinia",
+          "slug": "vuex-和-pinia"
+        },
+        {
+          "level": 3,
+          "title": "Vuex",
+          "slug": "vuex"
+        },
+        {
+          "level": 3,
+          "title": "Pinia",
+          "slug": "pinia"
+        },
+        {
+          "level": 3,
+          "title": "两者的区别",
+          "slug": "两者的区别"
+        }
+      ]
+    },
+    {
+      "title": "预处理器有哪些好处",
+      "frontmatter": {},
+      "regularPath": "/base-css/%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8%E6%9C%89%E5%93%AA%E4%BA%9B%E5%A5%BD%E5%A4%84.html",
+      "relativePath": "base-css/预处理器有哪些好处.md",
+      "key": "v-4f810be7",
+      "path": "/base-css/%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8%E6%9C%89%E5%93%AA%E4%BA%9B%E5%A5%BD%E5%A4%84.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "预处理器有哪些好处",
+          "slug": "预处理器有哪些好处"
+        },
+        {
+          "level": 3,
+          "title": "变量",
+          "slug": "变量"
+        },
+        {
+          "level": 3,
+          "title": "嵌套",
+          "slug": "嵌套"
+        },
+        {
+          "level": 3,
+          "title": "混合宏 mixins",
+          "slug": "混合宏-mixins"
+        },
+        {
+          "level": 3,
+          "title": "继承",
+          "slug": "继承"
+        },
+        {
+          "level": 3,
+          "title": "函数",
+          "slug": "函数"
+        },
+        {
+          "level": 3,
+          "title": "条件语句",
+          "slug": "条件语句"
+        }
+      ]
+    },
+    {
+      "title": "vue3 与 vue2 的区别",
+      "frontmatter": {},
+      "regularPath": "/base-fe/vue3%E5%92%8Cvue2.html",
+      "relativePath": "base-fe/vue3和vue2.md",
+      "key": "v-02bd9432",
+      "path": "/base-fe/vue3%E5%92%8Cvue2.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "vue3 与 vue2 的区别",
+          "slug": "vue3-与-vue2-的区别"
+        },
+        {
+          "level": 3,
+          "title": "1. 响应式原理",
+          "slug": "_1-响应式原理"
+        },
+        {
+          "level": 3,
+          "title": "2. 性能优化",
+          "slug": "_2-性能优化"
+        },
+        {
+          "level": 3,
+          "title": "3. Composition API",
+          "slug": "_3-composition-api"
+        },
+        {
+          "level": 3,
+          "title": "4. Fragments",
+          "slug": "_4-fragments"
+        },
+        {
+          "level": 3,
+          "title": "5. Teleport",
+          "slug": "_5-teleport"
+        },
+        {
+          "level": 3,
+          "title": "6. Suspense",
+          "slug": "_6-suspense"
+        },
+        {
+          "level": 3,
+          "title": "7. 自定义渲染器",
+          "slug": "_7-自定义渲染器"
+        },
+        {
+          "level": 3,
+          "title": "8. 更好的 TypeScript 支持",
+          "slug": "_8-更好的-typescript-支持"
+        },
+        {
+          "level": 3,
+          "title": "9. 更好的性能",
+          "slug": "_9-更好的性能"
+        }
+      ]
+    },
+    {
+      "title": "vue 中的插件和指令",
+      "frontmatter": {},
+      "regularPath": "/base-fe/%E6%8C%87%E4%BB%A4%E5%92%8C%E6%8F%92%E4%BB%B6.html",
+      "relativePath": "base-fe/指令和插件.md",
+      "key": "v-308514af",
+      "path": "/base-fe/%E6%8C%87%E4%BB%A4%E5%92%8C%E6%8F%92%E4%BB%B6.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "vue 中的插件和指令",
+          "slug": "vue-中的插件和指令"
+        },
+        {
+          "level": 3,
+          "title": "编写一个插件",
+          "slug": "编写一个插件"
+        },
+        {
+          "level": 3,
+          "title": "注册插件",
+          "slug": "注册插件"
+        },
+        {
+          "level": 3,
+          "title": "指令",
+          "slug": "指令"
+        },
+        {
+          "level": 3,
+          "title": "实现一个自定义指令",
+          "slug": "实现一个自定义指令"
+        },
+        {
+          "level": 3,
+          "title": "指令钩子函数",
+          "slug": "指令钩子函数"
+        }
+      ]
+    },
+    {
+      "title": "vue路由守卫",
+      "frontmatter": {},
+      "regularPath": "/base-fe/vue%E8%B7%AF%E7%94%B1%E5%AE%88%E5%8D%AB.html",
+      "relativePath": "base-fe/vue路由守卫.md",
+      "key": "v-148aa696",
+      "path": "/base-fe/vue%E8%B7%AF%E7%94%B1%E5%AE%88%E5%8D%AB.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "vue路由守卫",
+          "slug": "vue路由守卫"
+        },
+        {
+          "level": 3,
+          "title": "全局守卫",
+          "slug": "全局守卫"
+        },
+        {
+          "level": 3,
+          "title": "路由独享守卫",
+          "slug": "路由独享守卫"
+        },
+        {
+          "level": 3,
+          "title": "组件内守卫",
+          "slug": "组件内守卫"
+        }
+      ]
+    },
+    {
+      "title": "vue3 相关总结",
+      "frontmatter": {},
+      "regularPath": "/base-fe/vue3%E7%9B%B8%E5%85%B3%E6%80%BB%E7%BB%93.html",
+      "relativePath": "base-fe/vue3相关总结.md",
+      "key": "v-4de26aa8",
+      "path": "/base-fe/vue3%E7%9B%B8%E5%85%B3%E6%80%BB%E7%BB%93.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "vue3 相关总结",
+          "slug": "vue3-相关总结"
+        },
+        {
+          "level": 3,
+          "title": "ref 和 reactive",
+          "slug": "ref-和-reactive"
+        }
+      ]
+    },
+    {
+      "title": "AJAX",
+      "frontmatter": {},
+      "regularPath": "/base-js/AJAX.html",
+      "relativePath": "base-js/AJAX.md",
+      "key": "v-9749c636",
+      "path": "/base-js/AJAX.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "AJAX",
+          "slug": "ajax"
+        }
+      ]
+    },
+    {
+      "title": "Vue中双向绑定原理",
+      "frontmatter": {},
+      "regularPath": "/base-fe/%E5%8F%8C%E5%90%91%E7%BB%91%E5%AE%9A%E5%8E%9F%E7%90%86.html",
+      "relativePath": "base-fe/双向绑定原理.md",
+      "key": "v-f34c2576",
+      "path": "/base-fe/%E5%8F%8C%E5%90%91%E7%BB%91%E5%AE%9A%E5%8E%9F%E7%90%86.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Vue中双向绑定原理",
+          "slug": "vue中双向绑定原理"
+        },
+        {
+          "level": 3,
+          "title": "1. 什么是双向绑定",
+          "slug": "_1-什么是双向绑定"
+        },
+        {
+          "level": 3,
+          "title": "2. Vue中双向绑定原理",
+          "slug": "_2-vue中双向绑定原理"
+        }
+      ]
+    },
+    {
+      "title": "冒泡和捕获",
+      "frontmatter": {},
+      "regularPath": "/base-js/%E5%86%92%E6%B3%A1%E5%92%8C%E6%8D%95%E8%8E%B7.html",
+      "relativePath": "base-js/冒泡和捕获.md",
+      "key": "v-36bb1fe0",
+      "path": "/base-js/%E5%86%92%E6%B3%A1%E5%92%8C%E6%8D%95%E8%8E%B7.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "冒泡和捕获",
+          "slug": "冒泡和捕获"
+        },
+        {
+          "level": 3,
+          "title": "js事件委托",
+          "slug": "js事件委托"
         }
       ]
     },
@@ -113,6 +536,296 @@ export const siteData = {
       ]
     },
     {
+      "title": "Promise 是什么",
+      "frontmatter": {},
+      "regularPath": "/base-js/Promise.html",
+      "relativePath": "base-js/Promise.md",
+      "key": "v-03bab7ad",
+      "path": "/base-js/Promise.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Promise 是什么",
+          "slug": "promise-是什么"
+        },
+        {
+          "level": 3,
+          "title": "Promise 的特点",
+          "slug": "promise-的特点"
+        },
+        {
+          "level": 3,
+          "title": "Promise 的方法",
+          "slug": "promise-的方法"
+        },
+        {
+          "level": 3,
+          "title": "手写Promise",
+          "slug": "手写promise"
+        },
+        {
+          "level": 3,
+          "title": "手写Promise.all，并处理错误情况",
+          "slug": "手写promise-all-并处理错误情况"
+        },
+        {
+          "level": 3,
+          "title": "手写Promise.race",
+          "slug": "手写promise-race"
+        },
+        {
+          "level": 3,
+          "title": "allSettled",
+          "slug": "allsettled"
+        },
+        {
+          "level": 3,
+          "title": "Promise.any",
+          "slug": "promise-any"
+        },
+        {
+          "level": 3,
+          "title": "实现一个带并发限制的 Promise 调度器",
+          "slug": "实现一个带并发限制的-promise-调度器"
+        }
+      ]
+    },
+    {
+      "title": "继承",
+      "frontmatter": {},
+      "regularPath": "/base-js/%E7%BB%A7%E6%89%BF.html",
+      "relativePath": "base-js/继承.md",
+      "key": "v-4f579701",
+      "path": "/base-js/%E7%BB%A7%E6%89%BF.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "继承",
+          "slug": "继承"
+        },
+        {
+          "level": 3,
+          "title": "原型链继承",
+          "slug": "原型链继承"
+        },
+        {
+          "level": 3,
+          "title": "构造函数继承",
+          "slug": "构造函数继承"
+        },
+        {
+          "level": 3,
+          "title": "组合继承",
+          "slug": "组合继承"
+        },
+        {
+          "level": 3,
+          "title": "class继承",
+          "slug": "class继承"
+        }
+      ]
+    },
+    {
+      "title": "闭包",
+      "frontmatter": {},
+      "regularPath": "/base-js/%E9%97%AD%E5%8C%85.html",
+      "relativePath": "base-js/闭包.md",
+      "key": "v-4fe6db84",
+      "path": "/base-js/%E9%97%AD%E5%8C%85.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "闭包",
+          "slug": "闭包"
+        },
+        {
+          "level": 3,
+          "title": "闭包的用途",
+          "slug": "闭包的用途"
+        },
+        {
+          "level": 3,
+          "title": "闭包的缺点",
+          "slug": "闭包的缺点"
+        }
+      ]
+    },
+    {
+      "title": "两数之和",
+      "frontmatter": {},
+      "regularPath": "/base-leetcode/%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.html",
+      "relativePath": "base-leetcode/两数之和.md",
+      "key": "v-d38f7e8e",
+      "path": "/base-leetcode/%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "两数之和",
+          "slug": "两数之和"
+        }
+      ]
+    },
+    {
+      "title": "判断子序列",
+      "frontmatter": {},
+      "regularPath": "/base-leetcode/%E5%88%A4%E6%96%AD%E5%AD%90%E5%BA%8F%E5%88%97.html",
+      "relativePath": "base-leetcode/判断子序列.md",
+      "key": "v-12a2da58",
+      "path": "/base-leetcode/%E5%88%A4%E6%96%AD%E5%AD%90%E5%BA%8F%E5%88%97.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "判断子序列",
+          "slug": "判断子序列"
+        }
+      ]
+    },
+    {
+      "title": "删除有序数组中的重复项",
+      "frontmatter": {},
+      "regularPath": "/base-leetcode/%E5%88%A0%E9%99%A4%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9.html",
+      "relativePath": "base-leetcode/删除有序数组中的重复项.md",
+      "key": "v-bb6f3366",
+      "path": "/base-leetcode/%E5%88%A0%E9%99%A4%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "删除有序数组中的重复项",
+          "slug": "删除有序数组中的重复项"
+        }
+      ]
+    },
+    {
+      "title": "数组去重",
+      "frontmatter": {},
+      "regularPath": "/base-leetcode/%E6%95%B0%E7%BB%84%E5%8E%BB%E9%87%8D.html",
+      "relativePath": "base-leetcode/数组去重.md",
+      "key": "v-3af47de4",
+      "path": "/base-leetcode/%E6%95%B0%E7%BB%84%E5%8E%BB%E9%87%8D.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "数组去重",
+          "slug": "数组去重"
+        },
+        {
+          "level": 3,
+          "title": "方法一：使用 Set",
+          "slug": "方法一-使用-set"
+        },
+        {
+          "level": 3,
+          "title": "方法二：使用 Map",
+          "slug": "方法二-使用-map"
+        }
+      ]
+    },
+    {
+      "title": "合并两个有序数组 --- 双指针",
+      "frontmatter": {},
+      "regularPath": "/base-leetcode/%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84.html",
+      "relativePath": "base-leetcode/合并两个有序数组.md",
+      "key": "v-07ce21e8",
+      "path": "/base-leetcode/%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "合并两个有序数组 --- 双指针",
+          "slug": "合并两个有序数组-双指针"
+        }
+      ]
+    },
+    {
+      "title": "有效的括号匹配",
+      "frontmatter": {},
+      "regularPath": "/base-leetcode/%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7%E5%8C%B9%E9%85%8D.html",
+      "relativePath": "base-leetcode/有效的括号匹配.md",
+      "key": "v-ec7b9b84",
+      "path": "/base-leetcode/%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7%E5%8C%B9%E9%85%8D.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "有效的括号匹配",
+          "slug": "有效的括号匹配"
+        }
+      ]
+    },
+    {
+      "title": "长度最小的子数组",
+      "frontmatter": {},
+      "regularPath": "/base-leetcode/%E9%95%BF%E5%BA%A6%E6%9C%80%E5%B0%8F%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84.html",
+      "relativePath": "base-leetcode/长度最小的子数组.md",
+      "key": "v-3f399943",
+      "path": "/base-leetcode/%E9%95%BF%E5%BA%A6%E6%9C%80%E5%B0%8F%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "长度最小的子数组",
+          "slug": "长度最小的子数组"
+        }
+      ]
+    },
+    {
+      "title": "验证回文串",
+      "frontmatter": {},
+      "regularPath": "/base-leetcode/%E9%AA%8C%E8%AF%81%E5%9B%9E%E6%96%87%E4%B8%B2.html",
+      "relativePath": "base-leetcode/验证回文串.md",
+      "key": "v-d679ab8a",
+      "path": "/base-leetcode/%E9%AA%8C%E8%AF%81%E5%9B%9E%E6%96%87%E4%B8%B2.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "验证回文串",
+          "slug": "验证回文串"
+        }
+      ]
+    },
+    {
+      "title": "call和apply和bind原理",
+      "frontmatter": {},
+      "regularPath": "/base-thinking/call%E5%92%8Capply%E5%92%8Cbind%E5%8E%9F%E7%90%86.html",
+      "relativePath": "base-thinking/call和apply和bind原理.md",
+      "key": "v-1713c856",
+      "path": "/base-thinking/call%E5%92%8Capply%E5%92%8Cbind%E5%8E%9F%E7%90%86.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "call和apply和bind原理",
+          "slug": "call和apply和bind原理"
+        },
+        {
+          "level": 3,
+          "title": "call",
+          "slug": "call"
+        },
+        {
+          "level": 3,
+          "title": "apply",
+          "slug": "apply"
+        },
+        {
+          "level": 3,
+          "title": "bind",
+          "slug": "bind"
+        }
+      ]
+    },
+    {
+      "title": "移除元素",
+      "frontmatter": {},
+      "regularPath": "/base-leetcode/%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0.html",
+      "relativePath": "base-leetcode/移除元素.md",
+      "key": "v-5bb7fc2b",
+      "path": "/base-leetcode/%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "移除元素",
+          "slug": "移除元素"
+        }
+      ]
+    },
+    {
       "title": "实现new关键字",
       "frontmatter": {},
       "regularPath": "/base-thinking/new%E7%9A%84%E5%AE%9E%E7%8E%B0.html",
@@ -133,14 +846,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "hard-learn",
-      "frontmatter": {},
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-5d8a074e",
-      "path": "/"
-    },
-    {
       "title": "函数柯理化",
       "frontmatter": {},
       "regularPath": "/base-thinking/%E5%87%BD%E6%95%B0%E6%9F%AF%E7%90%86%E5%8C%96.html",
@@ -152,6 +857,131 @@ export const siteData = {
           "level": 3,
           "title": "函数柯理化",
           "slug": "函数柯理化"
+        }
+      ]
+    },
+    {
+      "title": "关于 HTTP 和 HTTPS",
+      "frontmatter": {},
+      "regularPath": "/base-thinking/%E5%85%B3%E4%BA%8EHTTP.html",
+      "relativePath": "base-thinking/关于HTTP.md",
+      "key": "v-317166a2",
+      "path": "/base-thinking/%E5%85%B3%E4%BA%8EHTTP.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "关于 HTTP 和 HTTPS",
+          "slug": "关于-http-和-https"
+        },
+        {
+          "level": 3,
+          "title": "HTTP 是什么？",
+          "slug": "http-是什么"
+        },
+        {
+          "level": 3,
+          "title": "HTTPS 是什么？",
+          "slug": "https-是什么"
+        },
+        {
+          "level": 3,
+          "title": "HTTP/1.x 和 HTTP/2.x 的区别",
+          "slug": "http-1-x-和-http-2-x-的区别"
+        }
+      ]
+    },
+    {
+      "title": "浏览器存储",
+      "frontmatter": {},
+      "regularPath": "/base-thinking/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%AD%98%E5%82%A8.html",
+      "relativePath": "base-thinking/浏览器存储.md",
+      "key": "v-74848370",
+      "path": "/base-thinking/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%AD%98%E5%82%A8.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "浏览器存储",
+          "slug": "浏览器存储"
+        },
+        {
+          "level": 3,
+          "title": "indexDB",
+          "slug": "indexdb"
+        }
+      ]
+    },
+    {
+      "title": "webpack 相关总结",
+      "frontmatter": {},
+      "regularPath": "/base-build/webpack%E7%9B%B8%E5%85%B3.html",
+      "relativePath": "base-build/webpack相关.md",
+      "key": "v-2ad614f9",
+      "path": "/base-build/webpack%E7%9B%B8%E5%85%B3.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "webpack 相关总结",
+          "slug": "webpack-相关总结"
+        },
+        {
+          "level": 3,
+          "title": "question: webpack的基本配置有哪些？",
+          "slug": "question-webpack的基本配置有哪些"
+        },
+        {
+          "level": 3,
+          "title": "question: 如何通过配置提升构建性能？",
+          "slug": "question-如何通过配置提升构建性能"
+        },
+        {
+          "level": 3,
+          "title": "question: webpcak的loader和plugin的区别，如何编写一个loader和plugin？",
+          "slug": "question-webpcak的loader和plugin的区别-如何编写一个loader和plugin"
+        },
+        {
+          "level": 3,
+          "title": "question: 介绍一下 Babel的工作流程，以及他是如何将ES6代码转换为ES5代码的？",
+          "slug": "question-介绍一下-babel的工作流程-以及他是如何将es6代码转换为es5代码的"
+        }
+      ]
+    },
+    {
+      "title": "路由实现机制",
+      "frontmatter": {},
+      "regularPath": "/base-thinking/%E8%B7%AF%E7%94%B1%E5%AE%9E%E7%8E%B0%E6%9C%BA%E5%88%B6.html",
+      "relativePath": "base-thinking/路由实现机制.md",
+      "key": "v-ade23072",
+      "path": "/base-thinking/%E8%B7%AF%E7%94%B1%E5%AE%9E%E7%8E%B0%E6%9C%BA%E5%88%B6.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "路由实现机制",
+          "slug": "路由实现机制"
+        },
+        {
+          "level": 3,
+          "title": "hash 模式",
+          "slug": "hash-模式"
+        },
+        {
+          "level": 3,
+          "title": "history 模式",
+          "slug": "history-模式"
+        }
+      ]
+    },
+    {
+      "title": "深拷贝",
+      "frontmatter": {},
+      "regularPath": "/base-thinking/%E6%B7%B1%E6%8B%B7%E8%B4%9D.html",
+      "relativePath": "base-thinking/深拷贝.md",
+      "key": "v-ee2b0b78",
+      "path": "/base-thinking/%E6%B7%B1%E6%8B%B7%E8%B4%9D.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "深拷贝",
+          "slug": "深拷贝"
         }
       ]
     },
@@ -191,42 +1021,79 @@ export const siteData = {
       ]
     },
     {
-      "title": "深拷贝",
+      "title": "观察者模式",
       "frontmatter": {},
-      "regularPath": "/base-thinking/%E6%B7%B1%E6%8B%B7%E8%B4%9D.html",
-      "relativePath": "base-thinking/深拷贝.md",
-      "key": "v-ee2b0b78",
-      "path": "/base-thinking/%E6%B7%B1%E6%8B%B7%E8%B4%9D.html",
+      "regularPath": "/base-thinking/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F%E5%92%8C%E5%8F%91%E5%B8%83%E8%AE%A2%E9%98%85.html",
+      "relativePath": "base-thinking/观察者模式和发布订阅.md",
+      "key": "v-6fdfaf23",
+      "path": "/base-thinking/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F%E5%92%8C%E5%8F%91%E5%B8%83%E8%AE%A2%E9%98%85.html",
       "headers": [
         {
           "level": 2,
-          "title": "深拷贝",
-          "slug": "深拷贝"
+          "title": "观察者模式",
+          "slug": "观察者模式"
+        },
+        {
+          "level": 2,
+          "title": "发布订阅模式",
+          "slug": "发布订阅模式"
+        },
+        {
+          "level": 2,
+          "title": "区别",
+          "slug": "区别"
         }
       ]
     },
     {
-      "title": "闭包",
       "frontmatter": {},
-      "regularPath": "/base-js/%E9%97%AD%E5%8C%85.html",
-      "relativePath": "base-js/闭包.md",
-      "key": "v-4fe6db84",
-      "path": "/base-js/%E9%97%AD%E5%8C%85.html",
+      "regularPath": "/config.html",
+      "relativePath": "config.md",
+      "key": "v-89a83a96",
+      "path": "/config.html"
+    },
+    {
+      "title": "正则表达式",
+      "frontmatter": {},
+      "regularPath": "/base-utils/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html",
+      "relativePath": "base-utils/正则表达式.md",
+      "key": "v-b74cc05e",
+      "path": "/base-utils/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.html",
       "headers": [
         {
           "level": 2,
-          "title": "闭包",
-          "slug": "闭包"
+          "title": "正则表达式",
+          "slug": "正则表达式"
         },
         {
           "level": 3,
-          "title": "闭包的用途",
-          "slug": "闭包的用途"
+          "title": "匹配有效的电子邮件地址",
+          "slug": "匹配有效的电子邮件地址"
+        }
+      ]
+    },
+    {
+      "title": "防抖和节流",
+      "frontmatter": {},
+      "regularPath": "/base-utils/%E9%98%B2%E6%8A%96%E5%92%8C%E8%8A%82%E6%B5%81.html",
+      "relativePath": "base-utils/防抖和节流.md",
+      "key": "v-00b71e8c",
+      "path": "/base-utils/%E9%98%B2%E6%8A%96%E5%92%8C%E8%8A%82%E6%B5%81.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "防抖和节流",
+          "slug": "防抖和节流"
         },
         {
           "level": 3,
-          "title": "闭包的缺点",
-          "slug": "闭包的缺点"
+          "title": "防抖",
+          "slug": "防抖"
+        },
+        {
+          "level": 3,
+          "title": "节流",
+          "slug": "节流"
         }
       ]
     },
@@ -252,38 +1119,11 @@ export const siteData = {
           "level": 3,
           "title": "方法2，优化性能",
           "slug": "方法2-优化性能"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/config.html",
-      "relativePath": "config.md",
-      "key": "v-89a83a96",
-      "path": "/config.html"
-    },
-    {
-      "title": "Vue中双向绑定原理",
-      "frontmatter": {},
-      "regularPath": "/base-thinking/%E5%8F%8C%E5%90%91%E7%BB%91%E5%AE%9A%E5%8E%9F%E7%90%86.html",
-      "relativePath": "base-thinking/双向绑定原理.md",
-      "key": "v-7f6f8667",
-      "path": "/base-thinking/%E5%8F%8C%E5%90%91%E7%BB%91%E5%AE%9A%E5%8E%9F%E7%90%86.html",
-      "headers": [
+        },
         {
           "level": 2,
-          "title": "Vue中双向绑定原理",
-          "slug": "vue中双向绑定原理"
-        },
-        {
-          "level": 3,
-          "title": "1. 什么是双向绑定",
-          "slug": "_1-什么是双向绑定"
-        },
-        {
-          "level": 3,
-          "title": "2. Vue中双向绑定原理",
-          "slug": "_2-vue中双向绑定原理"
+          "title": "树形数组扁平化",
+          "slug": "树形数组扁平化"
         }
       ]
     }
@@ -300,7 +1140,7 @@ export const siteData = {
       },
       {
         "text": "友链",
-        "link": "/b"
+        "link": "/friend"
       },
       {
         "text": "下拉菜单",
@@ -331,12 +1171,28 @@ export const siteData = {
             "path": "/base-js/原型和原型链"
           },
           {
+            "title": "继承",
+            "path": "/base-js/继承"
+          },
+          {
             "title": "堆和栈",
             "path": "/base-js/堆和栈"
           },
           {
             "title": "闭包",
             "path": "/base-js/闭包"
+          },
+          {
+            "title": "冒泡和捕获",
+            "path": "/base-js/冒泡和捕获"
+          },
+          {
+            "title": "Promise",
+            "path": "/base-js/Promise"
+          },
+          {
+            "title": "AJAX",
+            "path": "/base-js/AJAX"
           }
         ]
       },
@@ -349,6 +1205,78 @@ export const siteData = {
           {
             "title": "什么是BFC",
             "path": "/base-css/BFC"
+          },
+          {
+            "title": "移动端1px边框",
+            "path": "/base-css/移动端1px边框"
+          },
+          {
+            "title": "垂直水平居中",
+            "path": "/base-css/垂直水平居中"
+          },
+          {
+            "title": "预处理器有哪些好处",
+            "path": "/base-css/预处理器有哪些好处"
+          },
+          {
+            "title": "实现一个模态框组件",
+            "path": "/base-css/实现一个模态框组件"
+          },
+          {
+            "title": "一键换肤",
+            "path": "/base-css/一键换肤"
+          }
+        ]
+      },
+      {
+        "title": "关于前端框架",
+        "path": "",
+        "collapsable": true,
+        "sidebarDepth": -1,
+        "children": [
+          {
+            "title": "双向绑定原理",
+            "path": "/base-fe/双向绑定原理"
+          },
+          {
+            "title": "vue3和vue2",
+            "path": "/base-fe/vue3和vue2"
+          },
+          {
+            "title": "vue3相关总结",
+            "path": "/base-fe/vue3相关总结"
+          },
+          {
+            "title": "Diff算法实现原理",
+            "path": "/base-fe/Diff算法实现原理"
+          },
+          {
+            "title": "Vuex和Pinia",
+            "path": "/base-fe/Vuex和Pinia"
+          },
+          {
+            "title": "vue路由守卫",
+            "path": "/base-fe/vue路由守卫"
+          },
+          {
+            "title": "指令和插件",
+            "path": "/base-fe/指令和插件"
+          }
+        ]
+      },
+      {
+        "title": "关于构建工具",
+        "path": "",
+        "collapsable": true,
+        "sidebarDepth": -1,
+        "children": [
+          {
+            "title": "webpack",
+            "path": "/base-build/webpack相关"
+          },
+          {
+            "title": "vite",
+            "path": "/base-build/vite相关"
           }
         ]
       },
@@ -360,6 +1288,14 @@ export const siteData = {
           {
             "title": "扁平数组转化成tree",
             "path": "/base-utils/扁平数组转化成tree"
+          },
+          {
+            "title": "防抖和节流",
+            "path": "/base-utils/防抖和节流"
+          },
+          {
+            "title": "正则表达式",
+            "path": "/base-utils/正则表达式"
           }
         ]
       },
@@ -371,6 +1307,10 @@ export const siteData = {
           {
             "title": "尾调用优化",
             "path": "/base-thinking/尾调用优化"
+          },
+          {
+            "title": "call和apply和bind原理",
+            "path": "/base-thinking/call和apply和bind原理"
           },
           {
             "title": "new的实现",
@@ -385,8 +1325,63 @@ export const siteData = {
             "path": "/base-thinking/深拷贝"
           },
           {
-            "title": "双向绑定原理",
-            "path": "/base-thinking/双向绑定原理"
+            "title": "观察者模式和发布订阅",
+            "path": "/base-thinking/观察者模式和发布订阅"
+          },
+          {
+            "title": "浏览器存储",
+            "path": "/base-thinking/浏览器存储"
+          },
+          {
+            "title": "路由实现机制",
+            "path": "/base-thinking/路由实现机制"
+          },
+          {
+            "title": "关于HTTP",
+            "path": "/base-thinking/关于HTTP"
+          }
+        ]
+      },
+      {
+        "title": "leetcode算法",
+        "path": "",
+        "sidebarDepth": -1,
+        "children": [
+          {
+            "title": "合并两个有序数组",
+            "path": "/base-leetcode/合并两个有序数组"
+          },
+          {
+            "title": "两数之和",
+            "path": "/base-leetcode/两数之和"
+          },
+          {
+            "title": "判断子序列",
+            "path": "/base-leetcode/判断子序列"
+          },
+          {
+            "title": "删除有序数组中的重复项",
+            "path": "/base-leetcode/删除有序数组中的重复项"
+          },
+          {
+            "title": "数组去重",
+            "path": "/base-leetcode/数组去重"
+          },
+          {
+            "title": "验证回文串",
+            "path": "/base-leetcode/验证回文串"
+          },
+          {
+            "title": "移除元素",
+            "path": "/base-leetcode/移除元素"
+          },
+          {
+            "title": "有效的括号匹配",
+            "path": "/base-leetcode/有效的括号匹配"
+          },
+          {
+            "title": "长度最小的子数组",
+            "path": "/base-leetcode/长度最小的子数组"
           }
         ]
       }

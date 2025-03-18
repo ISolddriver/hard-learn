@@ -1,6 +1,6 @@
 ## 扁平化数组转化成tree
 如题：将下列数组转化成层级tree结构
-```
+```js
   let arr = [
     {id: 1, name: '部门1', pid: 0},
     {id: 2, name: '部门2', pid: 1},
@@ -10,7 +10,7 @@
   ]
 ```
 ### 方法1，不考虑性能，直接递归
-```
+```js
   const getChildren = (data, result, pid) => {
     for (const item of data) (
       if (item.pid === pid) {
@@ -31,7 +31,7 @@
   }
 ```
 ### 方法2，优化性能
-```
+```js
   function arrayToTree(items) {
     const result = [];   // 存放结果集
     const itemMap = {};  // 
@@ -65,5 +65,29 @@
 
     }
     return result;
+  }
+```
+
+## 树形数组扁平化
+```js
+  // 递归
+  function treeToArray(tree, result = []) {
+    for (const node of tree) {
+      result.push(node)
+      if (node.children && node.children.length > 0) {
+        treeToArray(node.children, result)
+      }
+    }
+    return result
+  }
+```
+```js
+  // reduce
+  function treeToArray(tree) {
+    return tree.reduce((prev, curr) => {
+      return prev.concat(
+        curr.children && curr.children.length > 0 ? [...curr, ...treeToArray(curr.children)] : [...curr]
+      )
+    }, [])
   }
 ```
